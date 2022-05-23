@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --dark-background: #1F2936; /* hero and footer */
+  --hero-main-text: #F9FAF8; /* hero main text and header logo text*/
+  --hero-secondary-text: #E5E7EB; /* hero secondary text, header link text*/
+  --button: #3882F6; /* button color, call to action background color */
+  --information-header: #1f2937; /* information header text */
+  --quote-bg: #e5e7eb; /* quote section background color */
+  --quote-text: #1F2937; /* quote section text color */
+}
+
+html, body {
+  height: 100vh;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+/* header section */
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-background);
+  width: 100vh;
+  padding: 0px 100vh;
+}
+
+.links-left {
+  margin-right: auto;
+}
+
+.links-right {
+  margin-left: auto;
+}
+
+.logo {
+  color: var(--hero-main-text);
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--hero-secondary-text);
+}
+
+/* hero section */
+
+.hero {
+  display: flex;
+  width: 100vh; 
+  background-color: var(--dark-background);
+  align-items: center;
+  padding: 0px 100vh;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.main-title {
+  color: var(--hero-main-text);
+  font-size: 28px;
+  font-weight: extra-bold;
+}
+
+.main-text {
+  color: var(--hero-secondary-text);
+  font-size: 18px;
+}
+
+.signup-btn-1 {
+  flex-shrink: 0;
+  background-color: var(--button);
+  color: var(--hero-main-text);
+  border: none;
+  border-radius: 5px;
+  max-width: fit-content;
+  padding: 4px;
+}
+
+.hero-img {
+  width: 200px;
+  flex-shrink: 0;
+  margin: 16px;
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+  padding: 16px;
+  box-sizing: border-box;
+}
