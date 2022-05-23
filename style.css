@@ -15,9 +15,18 @@ html, body {
   font-family: 'Roboto', 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 0px;
+  margin-left: 0px;
 }
+
+
+.page {
+/*  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  */
+}
+
 
 /* header section */
 
@@ -25,8 +34,9 @@ html, body {
   display: flex;
   align-items: center;
   background-color: var(--dark-background);
-  width: 100vh;
-  padding: 0px 100vh;
+  align-self: center;
+  width: 75vw;
+  padding: 0 12vw;
 }
 
 .links-left {
@@ -58,10 +68,10 @@ a {
 
 .hero {
   display: flex;
-  width: 100vh; 
   background-color: var(--dark-background);
   align-items: center;
-  padding: 0px 100vh;
+  width: 75vw;
+  padding: 0 12vw;
 }
 
 .hero-text {
@@ -94,7 +104,8 @@ a {
 .hero-img {
   width: 200px;
   flex-shrink: 0;
-  margin: 16px;
+  margin-left: auto;
+  margin-right: 16px;
   background-color: rgba(255,255,255,0.3);
   color: white;
   padding: 16px;
@@ -106,8 +117,9 @@ a {
 .info {
   display: flex;
   flex-direction: column;
-  width: 100vh;
   align-items: center;
+  width: 75vw;
+  padding: 0 12vw;
 }
 
 .info-title {
@@ -146,9 +158,9 @@ a {
   display: flex;
   flex-direction: column;
   background-color: var(--quote-bg);
-  width: 100vh;
-  padding: 0px 100vh;
   color: var(--quote-text);
+  width: 75vw;
+  padding: 0 12vw;
 }
 
 .quote-text {
@@ -170,10 +182,10 @@ a {
   align-items: center;
   background-color: var(--button);
   color: var(--hero-secondary-text);
-  width: 100vh;
   margin: 50px auto;
   padding: 32px;
   border-radius: 10px;
+  width: 50vw;
 }
 
 .banner-title {
@@ -192,12 +204,14 @@ a {
   padding: 4px;
 }
 
+/* footer */
+
 .footer {
   background-color: var(--dark-background);
-  width: 100vh;
-  padding: 0px 100vh;
   display: flex;
   justify-content: center;
+  width: 75vw;
+  padding: 0 12vw;
 }
 
 .footer-text {
