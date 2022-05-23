@@ -100,3 +100,107 @@ a {
   padding: 16px;
   box-sizing: border-box;
 }
+
+/* info section */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  align-items: center;
+}
+
+.info-title {
+  color: var(--information-header);
+  font-size: 36px;
+  font-weight: extra-bold;
+}
+
+.info-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  border: solid 1px var(--button);
+  border-radius: 3px;
+}
+
+.card-info {
+  text-align: center;
+  color: var(--information-header);
+}
+
+/* quote section */
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--quote-bg);
+  width: 100vh;
+  padding: 0px 100vh;
+  color: var(--quote-text);
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  margin-bottom: -12px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+/* signup section */
+
+.signup {
+  display: flex;
+  align-items: center;
+  background-color: var(--button);
+  color: var(--hero-secondary-text);
+  width: 100vh;
+  margin: 50px auto;
+  padding: 32px;
+  border-radius: 10px;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.signup-btn-2 {
+  border: solid 1px white;
+  background-color: var(--button);
+  color: var(--hero-secondary-text);
+  margin-left: auto;
+  flex-shrink: 0;
+  border-radius: 5px;
+  max-width: fit-content;
+  padding: 4px;
+}
+
+.footer {
+  background-color: var(--dark-background);
+  width: 100vh;
+  padding: 0px 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  color: var(--hero-main-text);
+
+}
